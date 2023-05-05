@@ -20,7 +20,6 @@ pause.cursor = "pointer";
 
 document.getElementsByTagName("button")[0].addEventListener("click", function () {
     pause.fontSize = "140%";
-    alert("Paused!")
 });
 
 document.getElementsByTagName("button")[0].addEventListener("mouseout", function () {
@@ -37,7 +36,6 @@ resume.cursor = "pointer";
 
 document.getElementsByTagName("button")[1].addEventListener("click", function () {
     resume.fontSize = "140%";
-    alert("Resumed!")
 });
 
 document.getElementsByTagName("button")[1].addEventListener("mouseout", function () {
