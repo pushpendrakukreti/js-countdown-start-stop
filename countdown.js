@@ -1,7 +1,7 @@
 
 // 10 minutes from now
 debugger;
-var time_in_minutes = .19;
+var time_in_minutes = 10;
 var current_time = Date.parse(new Date());
 var deadline = new Date(current_time + time_in_minutes * 60 * 1000);
 
